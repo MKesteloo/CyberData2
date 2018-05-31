@@ -21,4 +21,14 @@ pca.train$S_V2 <- as.numeric(pca.train$S_V2)
 #compute components: by default it centers around mean 0
 #using scale = T means setting std to 1
 prin_comp <- prcomp(pca.train, scale. = T)
-biplot(prin_comp, scale = 0)
+
+#compute std of each pc
+std_dev <- prin_comp$sdev
+
+#compute variance
+pr_var <- std_dev^2
+
+#scree plot: take number of pc that retains as much variance as possible
+#plot created by lines below shows around 15~16 pcs should be used
+prop_varex <- pr_var/sum(pr_var)
+plot(prop_varex, xlab = "Principal Component", ylab = "Proportion of Variance Explained", type = "b")
