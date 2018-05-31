@@ -10,4 +10,3 @@ Packages used:
 *corrplot
 *tseries
 *forecast
-*dummies
