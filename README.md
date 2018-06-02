@@ -8,6 +8,8 @@ R Packages used:
 * corrplot
 * tseries
 * forecast
+* ngram
+* seewave
 
 
 We also used Python (version 2.7).
