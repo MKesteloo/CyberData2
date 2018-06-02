@@ -11,9 +11,10 @@ R Packages used:
 
 
 We also used Python (version 2.7).
-The code is written in the file PCA.ipynb
-Run it using jupyter
+The code is written in the file PCA.ipynb.
+Run it using jupyter notebook.
 Packages used:
+* jupyter
 * numpy
 * matplotlib
 * pandas
