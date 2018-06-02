@@ -5,16 +5,16 @@ For the R code, RStudio is used. Simply run the lines by using CTRL + ENTER.
 Install packages by using install.packages("name")
 
 R Packages used:
-*corrplot
-*tseries
-*forecast
+* corrplot
+* tseries
+* forecast
 
 
 We also used Python (version 2.7).
 The code is written in the file PCA.ipynb
 Run it using jupyter
 Packages used:
-*numpy
-*matplotlib
-*pandas
-*sklearn
+* numpy
+* matplotlib
+* pandas
+* sklearn
